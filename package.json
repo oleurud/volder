@@ -1,0 +1,30 @@
+{
+  "name": "volder",
+  "version": "0.1.0",
+  "description": "webRTC app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oleurud/volder.git"
+  },
+  "keywords": [
+    "webRTC",
+    "video",
+    "audio"
+  ],
+  "author": "Simon Martin <oleurud@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/oleurud/volder/issues"
+  },
+  "homepage": "https://github.com/oleurud/volder#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
